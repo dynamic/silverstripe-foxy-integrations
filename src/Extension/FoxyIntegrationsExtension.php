@@ -33,7 +33,8 @@ class FoxyIntegrationsExtension extends Extension
                 echo '<p>' . $integration->Title . ' failed</p>';
             }
 
-            Injector::inst()->get(LoggerInterface::class)->debug($integration->Title . " responded " . $response->getBody());
+            Injector::inst()->get(LoggerInterface::class)
+                ->debug($integration->Title . " responded " . $response->getBody());
         }
     }
 }
