@@ -19,20 +19,17 @@ See [License](license.md)
 
 ## Configuration
 
-If your module makes use of the config API in SilverStripe it's a good idea to provide an example config
- here that will get the module working out of the box and expose the user to the possible configuration options.
-
-Provide a yaml code example where possible.
+Apply `FoxyIntegrationsExtension` to `FoxyController`:
 
 ```yaml
-
-Page:
-  config_option: true
-  another_config:
-    - item1
-    - item2
-  
+Dynamic\Foxy\Parser\Controller\FoxyController:
+  extensions:
+    - Dynamic\Foxy\Integrations\Extension\FoxyIntegrationsExtension
 ```
+
+Run a `dev/build`.
+
+In the CMS, go to the Foxy admin. There will now be a tab for `Integrations`, where you can enter URLs for the Foxy datafeed XML to be pushed.
 
 ## Maintainers
 
