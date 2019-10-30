@@ -2,6 +2,16 @@
 
 Push your Foxy.io datafeed to additional URLs for processing. This allows your datafeed to be used by additional applications, such as OrderDesk.
 
+[![Build Status](https://travis-ci.org/dynamic/silverstripe-foxy-integrations.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-foxy-integrations)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-foxy-integrations/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-foxy-integrations/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-foxy-integrations/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-foxy-integrations/build-status/master)
+[![codecov](https://codecov.io/gh/dynamic/silverstripe-foxy-integrations/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-foxy-integrations)
+
+[![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-foxy-integrations/v/stable)](https://packagist.org/packages/dynamic/silverstripe-foxy-integrations)
+[![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-foxy-integrations/downloads)](https://packagist.org/packages/dynamic/silverstripe-foxy-integrations)
+[![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-foxy-integrations/v/unstable)](https://packagist.org/packages/dynamic/silverstripe-foxy-integrations)
+[![License](https://poser.pugx.org/dynamic/silverstripe-foxy-integrations/license)](https://packagist.org/packages/dynamic/silverstripe-foxy-integrations)
+
 ## Requirements
 
 * SilverStripe ^4.0
